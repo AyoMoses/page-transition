@@ -9,9 +9,25 @@
     <link rel="stylesheet" href="/style.a6dae8f7.css">
 <script src="/style.a6dae8f7.js"></script></head>
 <body>
-    <h1>
-        Hello Parcel. Just checking if you work!!! Yeah, now you do
-    </h1>
+    <nav>
+        <ul class="nav-list">
+            <li><a class="nav-links" href="/index.html">Home</a></li>
+            <li><a class="nav-links" href="/about.html">About</a></li>
+            <li><a class="nav-links" href="#0">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main data-router-wrapper=""> <!--This houses the main page transition -->
+        <section data-router-view="home" class="home">
+            <div class="home-content">
+                <div class="home-presentation">
+                    <h1>Seamless transition</h1>
+                    <p>We will transition between html pages</p>
+                </div>
+                <img src="/plane.b7fbfbfb.png" alt="image-example">
+            </div>
+        </section>
+    </main>
 
     <script src="/js.00a46daa.js"></script>
 </body>
